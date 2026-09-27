@@ -1,0 +1,39 @@
+.contact-page {
+    min-height: 80vh;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-page h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.contact-intro {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    width: 220px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h2 {
+    margin-bottom: 12px;
+}
+
+.contact-card p {
+    color: #666;
+}

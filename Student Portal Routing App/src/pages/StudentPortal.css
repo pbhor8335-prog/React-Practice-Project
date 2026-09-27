@@ -1,0 +1,33 @@
+.student-page {
+    padding: 30px;
+    text-align: center;
+}
+
+.student-page h1 {
+    margin-bottom: 30px;
+}
+
+.student-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.student-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: white;
+}
+
+.student-card h2 {
+    margin-top: 0;
+}
+
+.student-card p {
+    margin: 10px 0;
+}
